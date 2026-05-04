@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Baptiste Lacaze</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+<!--------------------------------------------------------- NAVBAR ------------------------------------------------------------------------->
+        <nav class="navbar">
+            <a href="#hero" class="logo">
+                <img src="images/logo.png" alt="Logo" class="img_logo">
+            </a>
+
+            <p class="nav_links">
+                <a href="#hero">Accueil</a>
+                <a href="#projets">Projets</a>
+                <a href="pages/contact.html">Contact</a>
+            </p>
+        </nav>
+    </header>
+    
+<!--------------------------------------------------------- SECTION HERO ------------------------------------------------------------------>
+    <main>
+        <section id="hero">
+            <div class="titre">
+                <h1>MON PORTFOLIO</h1>
+                <span class="name">Baptiste LACAZE</span> <br><br>
+                </p>
+                <a href="#projets" class="hero_button">Voir mes Projets</a>
+            </div>
+        </section>
+<!--------------------------------------------------------- SECTION PROJETS ------------------------------------------------------------------>
+        <div id="projets">
+        <div class="projets_titre">
+            <h2>SÉLECTION <span class="gold_text">DE<br>PROJETS.</span></h2>
+        </div>
+                  <div class="projets_grid">
+        
+        <div class="projets_glass_grid">
+        
+        <!-- PROJET 1 -->
+        <a href="pages/photos_alpes.html" class="projet_glass_card">
+            <img src="images/chamois_1.webp" alt="Photos Alpes" class="projet_img">
+            <h3 class="projet_title">Photos des Alpes</h3>
+        </a>
+
+        <!-- PROJET 2 -->
+        <a href="pages/parfum.html" class="projet_glass_card">
+            <img src="images/parfum.png" alt="Packaging Parfum" class="projet_img">
+            <h3 class="projet_title">Imperial Blossom</h3>
+        </a>
+
+        <!-- PROJET 3 -->
+        <a href="pages/affiches_spe.html" class="projet_glass_card">
+            <img src="images/danse.png" alt="Projet 5" class="projet_img">
+            <h3 class="projet_title">Affiches Spectacle</h3>
+        </a>
+
+        <!-- PROJET 4 -->
+        <a href="pages/carnet_stage.html" class="projet_glass_card">
+            <img src="images/carnet.png" alt="Projet 4" class="projet_img">
+            <h3 class="projet_title">Carnet de Bord</h3>
+        </a>
+
+        <!-- PROJET 5 -->
+        <a href="pages/ate.html" class="projet_glass_card">
+            <img src="images/ate.webp" alt="Site Escrime" class="projet_img">
+            <h3 class="projet_title">Refonte ATE Escrime</h3>
+        </a>
+
+    </div>
+<!--------------------------------------------------------- SECTION CONTACT ------------------------------------------------------------------>
+        <section id="contact">
+            <div class="contact_container">
+                <h2> N'HÉSITEZ PAS À <br> <span class="gold_text"> ME CONTACTER ! </span> </h2>
+                <a href="pages/contact.html" class="contact_btn"> Me Contacter </a>
+            </div>
+        </section>
+    </main>
+<!--------------------------------------------------------- FOOTER ------------------------------------------------------------------>
+        <footer>
+            <div class="footer">
+                
+                <div class="footer_left">
+                    <img src="images/logo.png" alt="Logo" class="img_logo_footer">
+                </div>
+
+                <div class="footer_center">
+                    <p class="copyright">2026 - Baptiste LACAZE</p>
+                    
+                    <div class="gold_separator"></div>
+                    
+                    <div class="legal_links">
+                        <a href="#" class="trigger-modal">Mentions légales</a>
+                        <a href="#" class="trigger-modal">Politique de confidentialité</a>
+                    </div>
+                </div>
+
+                <div class="footer_right"></div>
+            </div>
+
+            <div id="legal-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h3>Mentions Légales & Confidentialité</h3>
+                    <p><strong>Éditeur :</strong> Baptiste Lacaze<br>
+                    <strong>Hébergeur :</strong> alwaysdata, 91 rue du Faubourg Saint-Honoré, 75008 Paris.</p>
+                    <p><strong>Confidentialité :</strong> Ce site ne collecte aucune donnée personnelle à des fins commerciales. Le formulaire de contact envoie directement un email sécurisé.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
